@@ -1,4 +1,24 @@
 <?php
+
+
+/**
+ * @api {put} /webservices/edit.php Edit an existing event
+ * @apiVersion 1.0.0
+ * @apiName EditEvent
+ * @apiGroup Events
+ *
+ * @apiParam {String} id         id
+ * @apiParam {String} [name]     Name
+ * @apiParam {String} [type]     type
+ * @apiParam {String} [date]     date
+ *
+ * @apiSuccess {Integer} id Event Id
+ * @apiSuccess {String} name  Name of the event
+ * @apiSuccess {String} type  Type of the event
+ * @apiSuccess {String} date  Date of the event
+ */
+
+
 /**
  * Created by PhpStorm.
  * User: alberto

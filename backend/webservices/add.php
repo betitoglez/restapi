@@ -1,4 +1,21 @@
 <?php
+
+/**
+ * @api {post} /webservices/add.php Add a new event
+ * @apiVersion 1.0.0
+ * @apiName AddEvent
+ * @apiGroup Events
+ *
+ * @apiParam {String} name     Mandatory Name
+ * @apiParam {String} type     Mandatory type
+ * @apiParam {String} date     Mandatory date
+ *
+ * @apiSuccess {Integer} id Event Id
+ * @apiSuccess {String} name  Name of the event
+ * @apiSuccess {String} type  Type of the event
+ * @apiSuccess {String} date  Date of the event
+ */
+
 /**
  * Created by PhpStorm.
  * User: alberto

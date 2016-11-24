@@ -1,4 +1,19 @@
 <?php
+
+/**
+ * @api {get} /webservices/list.php Request all available events
+ * @apiVersion 1.0.0
+ * @apiName ListEvents
+ * @apiGroup Events
+ *
+ *
+ * @apiSuccess {Integer} id Event Id
+ * @apiSuccess {String} name  Name of the event
+ * @apiSuccess {String} type  Type of the event
+ * @apiSuccess {String} date  Date of the event
+ */
+
+
 /**
  * Created by PhpStorm.
  * User: alberto

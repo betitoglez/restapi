@@ -1,4 +1,22 @@
 <?php
+
+
+/**
+ * @api {delete} /webservices/delete.php Delete an existing event
+ * @apiVersion 1.0.0
+ * @apiName DeleteEvent
+ * @apiGroup Events
+ *
+ * @apiParam {String} id         id
+ *
+ * @apiSuccessExample {json} Success-Response:
+ *     HTTP/1.1 200 OK
+ *     {
+ *       "status": "OK"
+ *     }
+ */
+
+
 /**
  * Created by PhpStorm.
  * User: alberto
