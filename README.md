@@ -18,9 +18,10 @@ Default credentials are **user** and **password**. God forgive me for this! ;-)
 ## Available Webservices
  **Base Url** 
  ***/backend/***
-| URL        | HTTP METHOD           | Mandatory Parameters  |
-| ------------- |:-------------:| -----:|
-| list.php   | GET | |
-| add.php   | POST | name , type , date |
-| edit.php      | PUT      |   id |
-| delete.php | DELETE     |    id |
+ 
+| URL           | HTTP METHOD           | Mandatory Parameters  |
+| ------------- |:---------------------:| ---------------------:|
+| list.php      | 		GET 			| NONE 					|
+| add.php       | 		POST 			| name , type , date 	|
+| edit.php      | 		PUT  		    |   	id    			| 			    	
+| delete.php    |	    DELETE     		|   	  id     		|
